@@ -1,0 +1,5 @@
+﻿index,StroopText,StroopColor,StroopCondition,correct,is_practice,practice_cue,practice_cont,Instructions.thisRepN,Instructions.thisTrialN,Instructions.thisN,Instructions.thisIndex,Practice.thisRepN,Practice.thisTrialN,Practice.thisN,Practice.thisIndex,vocal_RT,bad_baseline,filename,participant,session,date,expName,psychopyVersion,frameRate,
+0,Orange,white,Word,orange,yes,(Say "Orange"),Press SPACE to continue.,,,,,0,0,0,0,0,False,data/trial_000.wav,,001,2019_Nov_19_1630,Stroop 6-20-19,3.1.5,59.9614927291162,
+0,Orange,white,Word,orange,yes,(Say "Orange"),Press SPACE to continue.,,,,,0,0,0,0,,,,,001,2019_Nov_19_1630,Stroop 6-20-19,3.1.5,59.9614927291162,
+1,Yellow,green,CW,green,yes,(Say "Green"),Press SPACE to continue.,,,,,0,1,1,1,0,False,data/trial_001.wav,,001,2019_Nov_19_1630,Stroop 6-20-19,3.1.5,59.9614927291162,
+1,Yellow,green,CW,green,yes,(Say "Green"),Press SPACE to continue.,,,,,0,1,1,1,,,,,001,2019_Nov_19_1630,Stroop 6-20-19,3.1.5,59.9614927291162,

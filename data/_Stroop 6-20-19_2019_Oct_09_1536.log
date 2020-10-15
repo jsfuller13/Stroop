@@ -1,0 +1,66 @@
+29.2266 	WARNING 	Monitor specification not found. Creating a temporary one...
+29.2284 	WARNING 	User requested fullscreen with size [1680 1050], but screen is actually [2880, 1800]. Using actual size
+30.1374 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D7046F37B8>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001D7047804E0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+30.1374 	EXP 	window1: recordFrameIntervals = False
+30.3038 	EXP 	window1: recordFrameIntervals = True
+30.4873 	EXP 	window1: recordFrameIntervals = False
+30.7703 	EXP 	Created Stroop_Instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Stroop_Instr', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+30.7737 	EXP 	Created cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='cont', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+30.8443 	EXP 	Created fixation_cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='fixation_cross', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+30.8905 	EXP 	Created Stroop_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='Stroop_Text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+30.8938 	EXP 	Created practice_cue_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='practice_cue_txt', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+30.8972 	EXP 	Created prac_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='prac_cont', opacity=1.0, ori=0, pos=array([ 0.  , -0.45]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+31.4193 	EXP 	Created full_instr_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='full_instr_txt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+31.4344 	EXP 	Created full_instr_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='full_instr_cont', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press SPACE to begin.', units='height', win=Window(...), wrapWidth=1)
+31.4364 	EXP 	Created fixation_cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='fixation_cross', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+31.4400 	EXP 	Created Stroop_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='Stroop_Text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+31.4434 	EXP 	Created practice_cue_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='practice_cue_txt', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+31.4468 	EXP 	Created prac_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='prac_cont', opacity=1.0, ori=0, pos=array([ 0.  , -0.45]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+32.1645 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+32.1935 	EXP 	Imported SCWT_Instr.xlsx as conditions, 5 conditions, 3 params
+32.1937 	EXP 	Created sequence: sequential, trialTypes=5, nReps=1, seed=None
+32.1940 	EXP 	New trial (rep=0, index=0): OrderedDict([('index', 0), ('text', 'During this task, you will see three types of stimuli:\n      1.  Colored asterisks\n      2.  Color words written in black\n      3.  Color words written in color'), ('cont_text', 'Press SPACE to continue.')])
+32.3038 	EXP 	Stroop_Instr: text = 'During this task, you will see three types of stimuli:\n      1.  Colored asterisks\n      2.  Color words written in black\n      3.  Color words written in color'
+32.3038 	EXP 	cont: text = 'Press SPACE to continue.'
+32.3038 	EXP 	Stroop_Instr: autoDraw = True
+32.3038 	EXP 	cont: autoDraw = True
+62.1243 	EXP 	New trial (rep=0, index=1): OrderedDict([('index', 1), ('text', 'If you see a color word written in white...\nRead the word.'), ('cont_text', 'Press SPACE to continue.')])
+62.1510 	DATA 	Keypress: space
+62.1702 	EXP 	Stroop_Instr: autoDraw = False
+62.1702 	EXP 	cont: autoDraw = False
+62.1702 	EXP 	Stroop_Instr: text = 'If you see a color word written in white...\nRead the word.'
+62.1702 	EXP 	cont: text = 'Press SPACE to continue.'
+62.1702 	EXP 	Stroop_Instr: autoDraw = True
+62.1702 	EXP 	cont: autoDraw = True
+63.1575 	EXP 	New trial (rep=0, index=2): OrderedDict([('index', 2), ('text', 'If you see colored asterisks...\n        Name the color.'), ('cont_text', 'Press SPACE to continue.')])
+63.1795 	DATA 	Keypress: space
+63.1866 	EXP 	Stroop_Instr: autoDraw = False
+63.1866 	EXP 	cont: autoDraw = False
+63.1866 	EXP 	Stroop_Instr: text = 'If you see colored asterisks...\n        Name the color.'
+63.1866 	EXP 	cont: text = 'Press SPACE to continue.'
+63.1866 	EXP 	Stroop_Instr: autoDraw = True
+63.1866 	EXP 	cont: autoDraw = True
+63.9736 	EXP 	New trial (rep=0, index=3): OrderedDict([('index', 3), ('text', 'But, if you see a color word written in color...\n\nSay the color that the word is written in. \n        DO NOT read the word.'), ('cont_text', 'Press SPACE to continue.')])
+64.0257 	DATA 	Keypress: space
+64.0363 	EXP 	Stroop_Instr: autoDraw = False
+64.0363 	EXP 	cont: autoDraw = False
+64.0363 	EXP 	Stroop_Instr: text = 'But, if you see a color word written in color...\n\nSay the color that the word is written in. \n        DO NOT read the word.'
+64.0363 	EXP 	cont: text = 'Press SPACE to continue.'
+64.0363 	EXP 	Stroop_Instr: autoDraw = True
+64.0363 	EXP 	cont: autoDraw = True
+96.7065 	DATA 	Keypress: space
+96.7227 	EXP 	New trial (rep=0, index=4): OrderedDict([('index', 4), ('text', 'So, if you see "Red" written in Blue, \n\nSay "Blue".\nDo NOT say "Red".\n \nLet’s practice.'), ('cont_text', 'Press SPACE to begin.')])
+96.7856 	EXP 	Stroop_Instr: autoDraw = False
+96.7856 	EXP 	cont: autoDraw = False
+96.7856 	EXP 	Stroop_Instr: text = 'So, if you see "Red" written in Blue, \n\nSay "Blue".\nDo NOT say "Red".\n \nLet’s practice.'
+96.7856 	EXP 	cont: text = 'Press SPACE to begin.'
+96.7856 	EXP 	Stroop_Instr: autoDraw = True
+96.7856 	EXP 	cont: autoDraw = True
+97.6752 	EXP 	Imported SCWT_trials.xlsx as conditions, 90 conditions, 8 params
+97.6756 	EXP 	Created sequence: sequential, trialTypes=90, nReps=1, seed=None
+97.6760 	EXP 	New trial (rep=0, index=0): OrderedDict([('index', 0), ('StroopText', 'Orange'), ('StroopColor', 'white'), ('StroopCondition', 'Word'), ('correct', 'orange'), ('is_practice', 'yes'), ('practice_cue', '(Say "Orange")'), ('practice_cont', 'Press SPACE to continue.')])
+97.6782 	DATA 	Keypress: space
+97.6860 	EXP 	Stroop_Instr: autoDraw = False
+97.6860 	EXP 	cont: autoDraw = False
+98.7021 	EXP 	fixation_cross: autoDraw = True
+99.2411 	EXP 	window1: mouseVisible = True

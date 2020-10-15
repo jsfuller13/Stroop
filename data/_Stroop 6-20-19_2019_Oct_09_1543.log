@@ -1,0 +1,520 @@
+5.7890 	WARNING 	Monitor specification not found. Creating a temporary one...
+5.7908 	WARNING 	User requested fullscreen with size [1680 1050], but screen is actually [2880, 1800]. Using actual size
+6.7484 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000015F00858588>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000015F008112B0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.7484 	EXP 	window1: recordFrameIntervals = False
+6.9145 	EXP 	window1: recordFrameIntervals = True
+7.0979 	EXP 	window1: recordFrameIntervals = False
+7.3859 	EXP 	Created Stroop_Instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Stroop_Instr', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+7.3893 	EXP 	Created cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='cont', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+7.4600 	EXP 	Created fixation_cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='fixation_cross', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+7.5033 	EXP 	Created Stroop_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='Stroop_Text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+7.5067 	EXP 	Created practice_cue_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='practice_cue_txt', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+7.5100 	EXP 	Created prac_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='prac_cont', opacity=1.0, ori=0, pos=array([ 0.  , -0.45]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.0284 	EXP 	Created full_instr_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='full_instr_txt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.0434 	EXP 	Created full_instr_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='full_instr_cont', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press SPACE to begin.', units='height', win=Window(...), wrapWidth=1)
+8.0455 	EXP 	Created fixation_cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='fixation_cross', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+8.0494 	EXP 	Created Stroop_Text_Full = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='Stroop_Text_Full', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.0760 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.1060 	EXP 	Imported SCWT_Instr.xlsx as conditions, 5 conditions, 3 params
+8.1062 	EXP 	Created sequence: sequential, trialTypes=5, nReps=1, seed=None
+8.1064 	EXP 	New trial (rep=0, index=0): OrderedDict([('index', 0), ('text', 'During this task, you will see three types of stimuli:\n      1.  Colored asterisks\n      2.  Color words written in black\n      3.  Color words written in color'), ('cont_text', 'Press SPACE to continue.')])
+8.2144 	EXP 	Stroop_Instr: text = 'During this task, you will see three types of stimuli:\n      1.  Colored asterisks\n      2.  Color words written in black\n      3.  Color words written in color'
+8.2144 	EXP 	cont: text = 'Press SPACE to continue.'
+8.2144 	EXP 	Stroop_Instr: autoDraw = True
+8.2144 	EXP 	cont: autoDraw = True
+10.5688 	EXP 	New trial (rep=0, index=1): OrderedDict([('index', 1), ('text', 'If you see a color word written in white...\nRead the word.'), ('cont_text', 'Press SPACE to continue.')])
+10.5955 	DATA 	Keypress: space
+10.6149 	EXP 	Stroop_Instr: autoDraw = False
+10.6149 	EXP 	cont: autoDraw = False
+10.6149 	EXP 	Stroop_Instr: text = 'If you see a color word written in white...\nRead the word.'
+10.6149 	EXP 	cont: text = 'Press SPACE to continue.'
+10.6149 	EXP 	Stroop_Instr: autoDraw = True
+10.6149 	EXP 	cont: autoDraw = True
+11.9716 	DATA 	Keypress: space
+11.9852 	EXP 	New trial (rep=0, index=2): OrderedDict([('index', 2), ('text', 'If you see colored asterisks...\n        Name the color.'), ('cont_text', 'Press SPACE to continue.')])
+12.0148 	EXP 	Stroop_Instr: autoDraw = False
+12.0148 	EXP 	cont: autoDraw = False
+12.0148 	EXP 	Stroop_Instr: text = 'If you see colored asterisks...\n        Name the color.'
+12.0148 	EXP 	cont: text = 'Press SPACE to continue.'
+12.0148 	EXP 	Stroop_Instr: autoDraw = True
+12.0148 	EXP 	cont: autoDraw = True
+13.4856 	EXP 	New trial (rep=0, index=3): OrderedDict([('index', 3), ('text', 'But, if you see a color word written in color...\n\nSay the color that the word is written in. \n        DO NOT read the word.'), ('cont_text', 'Press SPACE to continue.')])
+13.5381 	DATA 	Keypress: space
+13.5477 	EXP 	Stroop_Instr: autoDraw = False
+13.5477 	EXP 	cont: autoDraw = False
+13.5477 	EXP 	Stroop_Instr: text = 'But, if you see a color word written in color...\n\nSay the color that the word is written in. \n        DO NOT read the word.'
+13.5477 	EXP 	cont: text = 'Press SPACE to continue.'
+13.5477 	EXP 	Stroop_Instr: autoDraw = True
+13.5477 	EXP 	cont: autoDraw = True
+14.6015 	EXP 	New trial (rep=0, index=4): OrderedDict([('index', 4), ('text', 'So, if you see "Red" written in Blue, \n\nSay "Blue".\nDo NOT say "Red".\n \nLet’s practice.'), ('cont_text', 'Press SPACE to begin.')])
+14.6527 	DATA 	Keypress: space
+14.6643 	EXP 	Stroop_Instr: autoDraw = False
+14.6643 	EXP 	cont: autoDraw = False
+14.6643 	EXP 	Stroop_Instr: text = 'So, if you see "Red" written in Blue, \n\nSay "Blue".\nDo NOT say "Red".\n \nLet’s practice.'
+14.6643 	EXP 	cont: text = 'Press SPACE to begin.'
+14.6643 	EXP 	Stroop_Instr: autoDraw = True
+14.6643 	EXP 	cont: autoDraw = True
+16.7544 	EXP 	Imported SCWT_trials.xlsx as conditions, 90 conditions, 8 params
+16.7548 	EXP 	Created sequence: sequential, trialTypes=90, nReps=1, seed=None
+16.7552 	EXP 	New trial (rep=0, index=0): OrderedDict([('index', 0), ('StroopText', 'Orange'), ('StroopColor', 'white'), ('StroopCondition', 'Word'), ('correct', 'orange'), ('is_practice', 'yes'), ('practice_cue', '(Say "Orange")'), ('practice_cont', 'Press SPACE to continue.')])
+16.7571 	DATA 	Keypress: space
+16.7646 	EXP 	Stroop_Instr: autoDraw = False
+16.7646 	EXP 	cont: autoDraw = False
+17.7807 	EXP 	fixation_cross: autoDraw = True
+18.2813 	EXP 	fixation_cross: autoDraw = False
+18.2813 	EXP 	Stroop_Text: color = 'white (named)'
+18.2813 	EXP 	Stroop_Text: text = 'Orange'
+18.2813 	EXP 	practice_cue_txt: text = '(Say "Orange")'
+18.2813 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+18.2813 	EXP 	Stroop_Text: autoDraw = True
+19.2477 	EXP 	practice_cue_txt: autoDraw = True
+19.2477 	EXP 	prac_cont: autoDraw = True
+20.6520 	DATA 	Keypress: space
+20.6687 	EXP 	New trial (rep=0, index=1): OrderedDict([('index', 1), ('StroopText', 'Yellow'), ('StroopColor', 'green'), ('StroopCondition', 'CW'), ('correct', 'green'), ('is_practice', 'yes'), ('practice_cue', '(Say "Green")'), ('practice_cont', 'Press SPACE to continue.')])
+20.6811 	EXP 	Stroop_Text: autoDraw = False
+20.6811 	EXP 	practice_cue_txt: autoDraw = False
+20.6811 	EXP 	prac_cont: autoDraw = False
+21.6977 	EXP 	fixation_cross: autoDraw = True
+22.2146 	EXP 	fixation_cross: autoDraw = False
+22.2146 	EXP 	fixation_cross: autoDraw = False
+22.2146 	EXP 	Stroop_Text: color = 'green (named)'
+22.2146 	EXP 	Stroop_Text: text = 'Yellow'
+22.2146 	EXP 	practice_cue_txt: text = '(Say "Green")'
+22.2146 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+22.2146 	EXP 	Stroop_Text: autoDraw = True
+23.1975 	EXP 	practice_cue_txt: autoDraw = True
+23.1975 	EXP 	prac_cont: autoDraw = True
+24.5021 	EXP 	New trial (rep=0, index=2): OrderedDict([('index', 2), ('StroopText', '******'), ('StroopColor', 'purple'), ('StroopCondition', 'Color'), ('correct', 'purple'), ('is_practice', 'yes'), ('practice_cue', '(Say "Purple")'), ('practice_cont', 'Press SPACE to continue.')])
+24.5040 	DATA 	Keypress: space
+24.5143 	EXP 	Stroop_Text: autoDraw = False
+24.5143 	EXP 	practice_cue_txt: autoDraw = False
+24.5143 	EXP 	prac_cont: autoDraw = False
+25.5309 	EXP 	fixation_cross: autoDraw = True
+26.0309 	EXP 	fixation_cross: autoDraw = False
+26.0309 	EXP 	fixation_cross: autoDraw = False
+26.0309 	EXP 	Stroop_Text: color = 'purple (named)'
+26.0309 	EXP 	Stroop_Text: text = '******'
+26.0309 	EXP 	practice_cue_txt: text = '(Say "Purple")'
+26.0309 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+26.0309 	EXP 	Stroop_Text: autoDraw = True
+27.0308 	EXP 	practice_cue_txt: autoDraw = True
+27.0308 	EXP 	prac_cont: autoDraw = True
+28.0849 	EXP 	New trial (rep=0, index=3): OrderedDict([('index', 3), ('StroopText', '*****'), ('StroopColor', 'green'), ('StroopCondition', 'Color'), ('correct', 'green'), ('is_practice', 'yes'), ('practice_cue', '(Say "Green")'), ('practice_cont', 'Press SPACE to continue.')])
+28.0869 	DATA 	Keypress: space
+28.0976 	EXP 	Stroop_Text: autoDraw = False
+28.0976 	EXP 	practice_cue_txt: autoDraw = False
+28.0976 	EXP 	prac_cont: autoDraw = False
+29.1144 	EXP 	fixation_cross: autoDraw = True
+29.6143 	EXP 	fixation_cross: autoDraw = False
+29.6143 	EXP 	fixation_cross: autoDraw = False
+29.6143 	EXP 	Stroop_Text: color = 'green (named)'
+29.6143 	EXP 	Stroop_Text: text = '*****'
+29.6143 	EXP 	practice_cue_txt: text = '(Say "Green")'
+29.6143 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+29.6143 	EXP 	Stroop_Text: autoDraw = True
+30.6141 	EXP 	practice_cue_txt: autoDraw = True
+30.6141 	EXP 	prac_cont: autoDraw = True
+31.2521 	DATA 	Keypress: space
+31.2887 	EXP 	New trial (rep=0, index=4): OrderedDict([('index', 4), ('StroopText', 'Orange'), ('StroopColor', 'blue'), ('StroopCondition', 'CW'), ('correct', 'blue'), ('is_practice', 'yes'), ('practice_cue', '(Say "Blue")'), ('practice_cont', 'Press SPACE to continue.')])
+31.2977 	EXP 	Stroop_Text: autoDraw = False
+31.2977 	EXP 	practice_cue_txt: autoDraw = False
+31.2977 	EXP 	prac_cont: autoDraw = False
+32.3141 	EXP 	fixation_cross: autoDraw = True
+32.8141 	EXP 	fixation_cross: autoDraw = False
+32.8141 	EXP 	fixation_cross: autoDraw = False
+32.8141 	EXP 	Stroop_Text: color = 'blue (named)'
+32.8141 	EXP 	Stroop_Text: text = 'Orange'
+32.8141 	EXP 	practice_cue_txt: text = '(Say "Blue")'
+32.8141 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+32.8141 	EXP 	Stroop_Text: autoDraw = True
+33.8143 	EXP 	practice_cue_txt: autoDraw = True
+33.8143 	EXP 	prac_cont: autoDraw = True
+34.5355 	EXP 	New trial (rep=0, index=5): OrderedDict([('index', 5), ('StroopText', 'Green'), ('StroopColor', 'purple'), ('StroopCondition', 'CW'), ('correct', 'purple'), ('is_practice', 'yes'), ('practice_cue', '(Say "Purple")'), ('practice_cont', 'Press SPACE to continue.')])
+34.5382 	DATA 	Keypress: space
+34.5476 	EXP 	Stroop_Text: autoDraw = False
+34.5476 	EXP 	practice_cue_txt: autoDraw = False
+34.5476 	EXP 	prac_cont: autoDraw = False
+35.5638 	EXP 	fixation_cross: autoDraw = True
+36.0643 	EXP 	fixation_cross: autoDraw = False
+36.0643 	EXP 	fixation_cross: autoDraw = False
+36.0643 	EXP 	Stroop_Text: color = 'purple (named)'
+36.0643 	EXP 	Stroop_Text: text = 'Green'
+36.0643 	EXP 	practice_cue_txt: text = '(Say "Purple")'
+36.0643 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+36.0643 	EXP 	Stroop_Text: autoDraw = True
+37.0638 	EXP 	practice_cue_txt: autoDraw = True
+37.0638 	EXP 	prac_cont: autoDraw = True
+37.5866 	DATA 	Keypress: space
+37.6208 	EXP 	New trial (rep=0, index=6): OrderedDict([('index', 6), ('StroopText', '******'), ('StroopColor', 'yellow'), ('StroopCondition', 'Color'), ('correct', 'yellow'), ('is_practice', 'yes'), ('practice_cue', '(Say "Yellow")'), ('practice_cont', 'Press SPACE to continue.')])
+37.6309 	EXP 	Stroop_Text: autoDraw = False
+37.6309 	EXP 	practice_cue_txt: autoDraw = False
+37.6309 	EXP 	prac_cont: autoDraw = False
+38.6473 	EXP 	fixation_cross: autoDraw = True
+39.1475 	EXP 	fixation_cross: autoDraw = False
+39.1475 	EXP 	fixation_cross: autoDraw = False
+39.1475 	EXP 	Stroop_Text: color = 'yellow (named)'
+39.1475 	EXP 	Stroop_Text: text = '******'
+39.1475 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+39.1475 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+39.1475 	EXP 	Stroop_Text: autoDraw = True
+40.1473 	EXP 	practice_cue_txt: autoDraw = True
+40.1473 	EXP 	prac_cont: autoDraw = True
+40.7243 	EXP 	New trial (rep=0, index=7): OrderedDict([('index', 7), ('StroopText', 'Blue'), ('StroopColor', 'white'), ('StroopCondition', 'Word'), ('correct', 'blue'), ('is_practice', 'yes'), ('practice_cue', '(Say "Blue")'), ('practice_cont', 'Press SPACE to continue.')])
+40.7263 	DATA 	Keypress: space
+40.7308 	EXP 	Stroop_Text: autoDraw = False
+40.7308 	EXP 	practice_cue_txt: autoDraw = False
+40.7308 	EXP 	prac_cont: autoDraw = False
+41.7472 	EXP 	fixation_cross: autoDraw = True
+42.2475 	EXP 	fixation_cross: autoDraw = False
+42.2475 	EXP 	fixation_cross: autoDraw = False
+42.2475 	EXP 	Stroop_Text: color = 'white (named)'
+42.2475 	EXP 	Stroop_Text: text = 'Blue'
+42.2475 	EXP 	practice_cue_txt: text = '(Say "Blue")'
+42.2475 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+42.2475 	EXP 	Stroop_Text: autoDraw = True
+43.2472 	EXP 	practice_cue_txt: autoDraw = True
+43.2472 	EXP 	prac_cont: autoDraw = True
+44.3345 	EXP 	New trial (rep=0, index=8): OrderedDict([('index', 8), ('StroopText', '******'), ('StroopColor', 'orange'), ('StroopCondition', 'Color'), ('correct', 'orange'), ('is_practice', 'yes'), ('practice_cue', '(Say "Orange")'), ('practice_cont', 'Press SPACE to continue.')])
+44.3365 	DATA 	Keypress: space
+44.3472 	EXP 	Stroop_Text: autoDraw = False
+44.3472 	EXP 	practice_cue_txt: autoDraw = False
+44.3472 	EXP 	prac_cont: autoDraw = False
+45.3637 	EXP 	fixation_cross: autoDraw = True
+45.8640 	EXP 	fixation_cross: autoDraw = False
+45.8640 	EXP 	fixation_cross: autoDraw = False
+45.8640 	EXP 	Stroop_Text: color = 'orange (named)'
+45.8640 	EXP 	Stroop_Text: text = '******'
+45.8640 	EXP 	practice_cue_txt: text = '(Say "Orange")'
+45.8640 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+45.8640 	EXP 	Stroop_Text: autoDraw = True
+46.8636 	EXP 	practice_cue_txt: autoDraw = True
+46.8636 	EXP 	prac_cont: autoDraw = True
+48.3843 	EXP 	New trial (rep=0, index=9): OrderedDict([('index', 9), ('StroopText', '***'), ('StroopColor', 'red'), ('StroopCondition', 'Color'), ('correct', 'red'), ('is_practice', 'yes'), ('practice_cue', '(Say "Red")'), ('practice_cont', 'Press SPACE to continue.')])
+48.3864 	DATA 	Keypress: space
+48.3970 	EXP 	Stroop_Text: autoDraw = False
+48.3970 	EXP 	practice_cue_txt: autoDraw = False
+48.3970 	EXP 	prac_cont: autoDraw = False
+49.4137 	EXP 	fixation_cross: autoDraw = True
+49.9140 	EXP 	fixation_cross: autoDraw = False
+49.9140 	EXP 	fixation_cross: autoDraw = False
+49.9140 	EXP 	Stroop_Text: color = 'red (named)'
+49.9140 	EXP 	Stroop_Text: text = '***'
+49.9140 	EXP 	practice_cue_txt: text = '(Say "Red")'
+49.9140 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+49.9140 	EXP 	Stroop_Text: autoDraw = True
+50.4876 	EXP 	New trial (rep=0, index=10): OrderedDict([('index', 10), ('StroopText', 'Yellow'), ('StroopColor', 'white'), ('StroopCondition', 'Word'), ('correct', 'yellow'), ('is_practice', 'yes'), ('practice_cue', '(Say "Yellow")'), ('practice_cont', 'Press SPACE to continue.')])
+50.4897 	DATA 	Keypress: space
+50.4972 	EXP 	Stroop_Text: autoDraw = False
+50.4972 	EXP 	practice_cue_txt: autoDraw = False
+50.4972 	EXP 	prac_cont: autoDraw = False
+51.5135 	EXP 	fixation_cross: autoDraw = True
+51.7494 	DATA 	Keypress: space
+52.0136 	EXP 	fixation_cross: autoDraw = False
+52.0136 	EXP 	fixation_cross: autoDraw = False
+52.0136 	EXP 	Stroop_Text: color = 'white (named)'
+52.0136 	EXP 	Stroop_Text: text = 'Yellow'
+52.0136 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+52.0136 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+52.0136 	EXP 	Stroop_Text: autoDraw = True
+52.4187 	DATA 	Keypress: space
+52.4486 	EXP 	New trial (rep=0, index=11): OrderedDict([('index', 11), ('StroopText', 'Red'), ('StroopColor', 'white'), ('StroopCondition', 'Word'), ('correct', 'red'), ('is_practice', 'yes'), ('practice_cue', '(Say "Red")'), ('practice_cont', 'Press SPACE to continue.')])
+52.4636 	EXP 	Stroop_Text: autoDraw = False
+52.4636 	EXP 	practice_cue_txt: autoDraw = False
+52.4636 	EXP 	prac_cont: autoDraw = False
+53.4803 	EXP 	fixation_cross: autoDraw = True
+53.9802 	EXP 	fixation_cross: autoDraw = False
+53.9802 	EXP 	fixation_cross: autoDraw = False
+53.9802 	EXP 	Stroop_Text: color = 'white (named)'
+53.9802 	EXP 	Stroop_Text: text = 'Red'
+53.9802 	EXP 	practice_cue_txt: text = '(Say "Red")'
+53.9802 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+53.9802 	EXP 	Stroop_Text: autoDraw = True
+54.3278 	EXP 	New trial (rep=0, index=12): OrderedDict([('index', 12), ('StroopText', '****'), ('StroopColor', 'blue'), ('StroopCondition', 'Color'), ('correct', 'blue'), ('is_practice', 'yes'), ('practice_cue', '(Say "Blue")'), ('practice_cont', 'Press SPACE to continue.')])
+54.3322 	DATA 	Keypress: space
+54.3469 	EXP 	Stroop_Text: autoDraw = False
+54.3469 	EXP 	practice_cue_txt: autoDraw = False
+54.3469 	EXP 	prac_cont: autoDraw = False
+55.3468 	EXP 	fixation_cross: autoDraw = True
+55.8637 	EXP 	fixation_cross: autoDraw = False
+55.8637 	EXP 	Stroop_Text: color = 'blue (named)'
+55.8637 	EXP 	Stroop_Text: text = '****'
+55.8637 	EXP 	practice_cue_txt: text = '(Say "Blue")'
+55.8637 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+55.8637 	EXP 	Stroop_Text: autoDraw = True
+56.1485 	EXP 	New trial (rep=0, index=13): OrderedDict([('index', 13), ('StroopText', 'Purple'), ('StroopColor', 'red'), ('StroopCondition', 'CW'), ('correct', 'red'), ('is_practice', 'yes'), ('practice_cue', '(Say "Red")'), ('practice_cont', 'Press SPACE to continue.')])
+56.1507 	DATA 	Keypress: space
+56.1635 	EXP 	Stroop_Text: autoDraw = False
+56.1635 	EXP 	practice_cue_txt: autoDraw = False
+56.1635 	EXP 	prac_cont: autoDraw = False
+57.1804 	EXP 	fixation_cross: autoDraw = True
+57.6802 	EXP 	fixation_cross: autoDraw = False
+57.6802 	EXP 	fixation_cross: autoDraw = False
+57.6802 	EXP 	Stroop_Text: color = 'red (named)'
+57.6802 	EXP 	Stroop_Text: text = 'Purple'
+57.6802 	EXP 	practice_cue_txt: text = '(Say "Red")'
+57.6802 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+57.6802 	EXP 	Stroop_Text: autoDraw = True
+58.1006 	EXP 	New trial (rep=0, index=14): OrderedDict([('index', 14), ('StroopText', 'Green'), ('StroopColor', 'white'), ('StroopCondition', 'Word'), ('correct', 'green'), ('is_practice', 'yes'), ('practice_cue', '(Say "Green")'), ('practice_cont', 'Press SPACE to continue.')])
+58.1026 	DATA 	Keypress: space
+58.1137 	EXP 	Stroop_Text: autoDraw = False
+58.1137 	EXP 	practice_cue_txt: autoDraw = False
+58.1137 	EXP 	prac_cont: autoDraw = False
+59.1302 	EXP 	fixation_cross: autoDraw = True
+59.6304 	EXP 	fixation_cross: autoDraw = False
+59.6304 	EXP 	fixation_cross: autoDraw = False
+59.6304 	EXP 	Stroop_Text: color = 'white (named)'
+59.6304 	EXP 	Stroop_Text: text = 'Green'
+59.6304 	EXP 	practice_cue_txt: text = '(Say "Green")'
+59.6304 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+59.6304 	EXP 	Stroop_Text: autoDraw = True
+60.6301 	EXP 	practice_cue_txt: autoDraw = True
+60.6301 	EXP 	prac_cont: autoDraw = True
+61.4845 	DATA 	Keypress: space
+61.5201 	EXP 	New trial (rep=0, index=15): OrderedDict([('index', 15), ('StroopText', 'Purple'), ('StroopColor', 'white'), ('StroopCondition', 'Word'), ('correct', 'purple'), ('is_practice', 'yes'), ('practice_cue', '(Say "Purple")'), ('practice_cont', 'Press SPACE to continue.')])
+61.5301 	EXP 	Stroop_Text: autoDraw = False
+61.5301 	EXP 	practice_cue_txt: autoDraw = False
+61.5301 	EXP 	prac_cont: autoDraw = False
+62.5467 	EXP 	fixation_cross: autoDraw = True
+63.0466 	EXP 	fixation_cross: autoDraw = False
+63.0466 	EXP 	fixation_cross: autoDraw = False
+63.0466 	EXP 	Stroop_Text: color = 'white (named)'
+63.0466 	EXP 	Stroop_Text: text = 'Purple'
+63.0466 	EXP 	practice_cue_txt: text = '(Say "Purple")'
+63.0466 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+63.0466 	EXP 	Stroop_Text: autoDraw = True
+63.4426 	EXP 	New trial (rep=0, index=16): OrderedDict([('index', 16), ('StroopText', 'Red'), ('StroopColor', 'orange'), ('StroopCondition', 'CW'), ('correct', 'orange'), ('is_practice', 'yes'), ('practice_cue', '(Say "Orange")'), ('practice_cont', 'Press SPACE to continue.')])
+63.4450 	DATA 	Keypress: space
+63.4636 	EXP 	Stroop_Text: autoDraw = False
+63.4636 	EXP 	practice_cue_txt: autoDraw = False
+63.4636 	EXP 	prac_cont: autoDraw = False
+64.4632 	EXP 	fixation_cross: autoDraw = True
+64.9636 	EXP 	fixation_cross: autoDraw = False
+64.9636 	EXP 	fixation_cross: autoDraw = False
+64.9636 	EXP 	Stroop_Text: color = 'orange (named)'
+64.9636 	EXP 	Stroop_Text: text = 'Red'
+64.9636 	EXP 	practice_cue_txt: text = '(Say "Orange")'
+64.9636 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+64.9636 	EXP 	Stroop_Text: autoDraw = True
+65.4429 	EXP 	New trial (rep=0, index=17): OrderedDict([('index', 17), ('StroopText', 'Blue'), ('StroopColor', 'yellow'), ('StroopCondition', 'CW'), ('correct', 'yellow'), ('is_practice', 'yes'), ('practice_cue', '(Say "Yellow")'), ('practice_cont', 'Press SPACE to continue.')])
+65.4455 	DATA 	Keypress: space
+65.4632 	EXP 	Stroop_Text: autoDraw = False
+65.4632 	EXP 	practice_cue_txt: autoDraw = False
+65.4632 	EXP 	prac_cont: autoDraw = False
+66.4632 	EXP 	fixation_cross: autoDraw = True
+66.9800 	EXP 	fixation_cross: autoDraw = False
+66.9800 	EXP 	Stroop_Text: color = 'yellow (named)'
+66.9800 	EXP 	Stroop_Text: text = 'Blue'
+66.9800 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+66.9800 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+66.9800 	EXP 	Stroop_Text: autoDraw = True
+67.3497 	EXP 	New trial (rep=0, index=18): OrderedDict([('index', 18), ('StroopText', 'Yellow'), ('StroopColor', 'orange'), ('StroopCondition', 'CW'), ('correct', 'orange'), ('is_practice', 'no'), ('practice_cue', None), ('practice_cont', None)])
+67.3516 	DATA 	Keypress: space
+67.3632 	EXP 	Stroop_Text: autoDraw = False
+67.3632 	EXP 	practice_cue_txt: autoDraw = False
+67.3632 	EXP 	prac_cont: autoDraw = False
+68.3799 	EXP 	fixation_cross: autoDraw = True
+68.8801 	EXP 	fixation_cross: autoDraw = False
+68.8801 	EXP 	fixation_cross: autoDraw = False
+68.8801 	EXP 	Stroop_Text: color = 'orange (named)'
+68.8801 	EXP 	Stroop_Text: text = 'Yellow'
+68.8801 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+68.8801 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+68.8801 	EXP 	Stroop_Text: autoDraw = True
+69.2518 	DATA 	Keypress: space
+69.2752 	EXP 	New trial (rep=0, index=19): OrderedDict([('index', 19), ('StroopText', 'Red'), ('StroopColor', 'purple'), ('StroopCondition', 'CW'), ('correct', 'purple'), ('is_practice', 'no'), ('practice_cue', None), ('practice_cont', None)])
+69.2966 	EXP 	Stroop_Text: autoDraw = False
+69.2966 	EXP 	practice_cue_txt: autoDraw = False
+69.2966 	EXP 	prac_cont: autoDraw = False
+70.2965 	EXP 	fixation_cross: autoDraw = True
+70.7963 	EXP 	fixation_cross: autoDraw = False
+70.7963 	EXP 	fixation_cross: autoDraw = False
+70.7963 	EXP 	Stroop_Text: color = 'purple (named)'
+70.7963 	EXP 	Stroop_Text: text = 'Red'
+70.7963 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+70.7963 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+70.7963 	EXP 	Stroop_Text: autoDraw = True
+71.2666 	EXP 	New trial (rep=0, index=20): OrderedDict([('index', 20), ('StroopText', 'Green'), ('StroopColor', 'yellow'), ('StroopCondition', 'CW'), ('correct', 'yellow'), ('is_practice', 'no'), ('practice_cue', None), ('practice_cont', None)])
+71.2685 	DATA 	Keypress: space
+71.2797 	EXP 	Stroop_Text: autoDraw = False
+71.2797 	EXP 	practice_cue_txt: autoDraw = False
+71.2797 	EXP 	prac_cont: autoDraw = False
+72.2964 	EXP 	fixation_cross: autoDraw = True
+72.7964 	EXP 	fixation_cross: autoDraw = False
+72.7964 	EXP 	fixation_cross: autoDraw = False
+72.7964 	EXP 	Stroop_Text: color = 'yellow (named)'
+72.7964 	EXP 	Stroop_Text: text = 'Green'
+72.7964 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+72.7964 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+72.7964 	EXP 	Stroop_Text: autoDraw = True
+73.1826 	EXP 	New trial (rep=0, index=21): OrderedDict([('index', 21), ('StroopText', 'Blue'), ('StroopColor', 'purple'), ('StroopCondition', 'CW'), ('correct', 'purple'), ('is_practice', 'no'), ('practice_cue', None), ('practice_cont', None)])
+73.1846 	DATA 	Keypress: space
+73.1968 	EXP 	Stroop_Text: autoDraw = False
+73.1968 	EXP 	practice_cue_txt: autoDraw = False
+73.1968 	EXP 	prac_cont: autoDraw = False
+74.2130 	EXP 	fixation_cross: autoDraw = True
+74.7132 	EXP 	fixation_cross: autoDraw = False
+74.7132 	EXP 	fixation_cross: autoDraw = False
+74.7132 	EXP 	Stroop_Text: color = 'purple (named)'
+74.7132 	EXP 	Stroop_Text: text = 'Blue'
+74.7132 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+74.7132 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+74.7132 	EXP 	Stroop_Text: autoDraw = True
+75.0164 	EXP 	New trial (rep=0, index=22): OrderedDict([('index', 22), ('StroopText', 'Yellow'), ('StroopColor', 'white'), ('StroopCondition', 'Word'), ('correct', 'yellow'), ('is_practice', 'no'), ('practice_cue', None), ('practice_cont', None)])
+75.0189 	DATA 	Keypress: space
+75.0300 	EXP 	Stroop_Text: autoDraw = False
+75.0300 	EXP 	practice_cue_txt: autoDraw = False
+75.0300 	EXP 	prac_cont: autoDraw = False
+76.0464 	EXP 	fixation_cross: autoDraw = True
+76.5465 	EXP 	fixation_cross: autoDraw = False
+76.5465 	EXP 	fixation_cross: autoDraw = False
+76.5465 	EXP 	Stroop_Text: color = 'white (named)'
+76.5465 	EXP 	Stroop_Text: text = 'Yellow'
+76.5465 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+76.5465 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+76.5465 	EXP 	Stroop_Text: autoDraw = True
+77.5463 	EXP 	practice_cue_txt: autoDraw = True
+77.5463 	EXP 	prac_cont: autoDraw = True
+77.9874 	DATA 	Keypress: space
+78.0140 	EXP 	New trial (rep=0, index=23): OrderedDict([('index', 23), ('StroopText', 'Purple'), ('StroopColor', 'white'), ('StroopCondition', 'Word'), ('correct', 'purple'), ('is_practice', 'no'), ('practice_cue', None), ('practice_cont', None)])
+78.0297 	EXP 	Stroop_Text: autoDraw = False
+78.0297 	EXP 	practice_cue_txt: autoDraw = False
+78.0297 	EXP 	prac_cont: autoDraw = False
+79.0463 	EXP 	fixation_cross: autoDraw = True
+79.5464 	EXP 	fixation_cross: autoDraw = False
+79.5464 	EXP 	fixation_cross: autoDraw = False
+79.5464 	EXP 	Stroop_Text: color = 'white (named)'
+79.5464 	EXP 	Stroop_Text: text = 'Purple'
+79.5464 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+79.5464 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+79.5464 	EXP 	Stroop_Text: autoDraw = True
+79.7988 	EXP 	New trial (rep=0, index=24): OrderedDict([('index', 24), ('StroopText', '***'), ('StroopColor', 'red'), ('StroopCondition', 'Color'), ('correct', 'red'), ('is_practice', 'no'), ('practice_cue', None), ('practice_cont', None)])
+79.8010 	DATA 	Keypress: space
+79.8128 	EXP 	Stroop_Text: autoDraw = False
+79.8128 	EXP 	practice_cue_txt: autoDraw = False
+79.8128 	EXP 	prac_cont: autoDraw = False
+80.4820 	DATA 	Keypress: space
+80.8296 	EXP 	fixation_cross: autoDraw = True
+80.9822 	DATA 	Keypress: space
+81.2324 	DATA 	Keypress: space
+81.3296 	EXP 	fixation_cross: autoDraw = False
+81.3296 	EXP 	fixation_cross: autoDraw = False
+81.3296 	EXP 	Stroop_Text: color = 'red (named)'
+81.3296 	EXP 	Stroop_Text: text = '***'
+81.3296 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+81.3296 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+81.3296 	EXP 	Stroop_Text: autoDraw = True
+81.4181 	DATA 	Keypress: space
+81.4472 	EXP 	New trial (rep=0, index=25): OrderedDict([('index', 25), ('StroopText', 'Green'), ('StroopColor', 'white'), ('StroopCondition', 'Word'), ('correct', 'green'), ('is_practice', 'no'), ('practice_cue', None), ('practice_cont', None)])
+81.4629 	EXP 	Stroop_Text: autoDraw = False
+81.4629 	EXP 	practice_cue_txt: autoDraw = False
+81.4629 	EXP 	prac_cont: autoDraw = False
+81.8654 	DATA 	Keypress: space
+82.0644 	DATA 	Keypress: space
+82.2486 	DATA 	Keypress: space
+82.4318 	DATA 	Keypress: space
+82.4794 	EXP 	fixation_cross: autoDraw = True
+82.6656 	DATA 	Keypress: space
+82.8156 	DATA 	Keypress: space
+82.9796 	EXP 	fixation_cross: autoDraw = False
+82.9796 	EXP 	fixation_cross: autoDraw = False
+82.9796 	EXP 	Stroop_Text: color = 'white (named)'
+82.9796 	EXP 	Stroop_Text: text = 'Green'
+82.9796 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+82.9796 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+82.9796 	EXP 	Stroop_Text: autoDraw = True
+83.0062 	EXP 	New trial (rep=0, index=26): OrderedDict([('index', 26), ('StroopText', '******'), ('StroopColor', 'purple'), ('StroopCondition', 'Color'), ('correct', 'purple'), ('is_practice', 'no'), ('practice_cue', None), ('practice_cont', None)])
+83.0084 	DATA 	Keypress: space
+83.0128 	EXP 	Stroop_Text: autoDraw = False
+83.0128 	EXP 	practice_cue_txt: autoDraw = False
+83.0128 	EXP 	prac_cont: autoDraw = False
+83.1983 	DATA 	Keypress: space
+83.4653 	DATA 	Keypress: space
+83.6986 	DATA 	Keypress: space
+83.8818 	DATA 	Keypress: space
+84.0296 	EXP 	fixation_cross: autoDraw = True
+84.0655 	DATA 	Keypress: space
+84.2323 	DATA 	Keypress: space
+84.4157 	DATA 	Keypress: space
+84.5295 	EXP 	fixation_cross: autoDraw = False
+84.5295 	EXP 	fixation_cross: autoDraw = False
+84.5295 	EXP 	Stroop_Text: color = 'purple (named)'
+84.5295 	EXP 	Stroop_Text: text = '******'
+84.5295 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+84.5295 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+84.5295 	EXP 	Stroop_Text: autoDraw = True
+84.5973 	EXP 	New trial (rep=0, index=27): OrderedDict([('index', 27), ('StroopText', 'Orange'), ('StroopColor', 'white'), ('StroopCondition', 'Word'), ('correct', 'orange'), ('is_practice', 'no'), ('practice_cue', None), ('practice_cont', None)])
+84.6009 	DATA 	Keypress: space
+84.6126 	EXP 	Stroop_Text: autoDraw = False
+84.6126 	EXP 	practice_cue_txt: autoDraw = False
+84.6126 	EXP 	prac_cont: autoDraw = False
+84.7488 	DATA 	Keypress: space
+84.9648 	DATA 	Keypress: space
+85.1318 	DATA 	Keypress: space
+85.2981 	DATA 	Keypress: space
+85.4982 	DATA 	Keypress: space
+85.6295 	EXP 	fixation_cross: autoDraw = True
+85.8826 	DATA 	Keypress: space
+86.0670 	DATA 	Keypress: space
+86.1465 	EXP 	fixation_cross: autoDraw = False
+86.1465 	EXP 	fixation_cross: autoDraw = False
+86.1465 	EXP 	Stroop_Text: color = 'white (named)'
+86.1465 	EXP 	Stroop_Text: text = 'Orange'
+86.1465 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+86.1465 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+86.1465 	EXP 	Stroop_Text: autoDraw = True
+86.2190 	DATA 	Keypress: space
+86.2487 	EXP 	New trial (rep=0, index=28): OrderedDict([('index', 28), ('StroopText', 'Green'), ('StroopColor', 'blue'), ('StroopCondition', 'CW'), ('correct', 'blue'), ('is_practice', 'no'), ('practice_cue', None), ('practice_cont', None)])
+86.2630 	EXP 	Stroop_Text: autoDraw = False
+86.2630 	EXP 	practice_cue_txt: autoDraw = False
+86.2630 	EXP 	prac_cont: autoDraw = False
+86.6647 	DATA 	Keypress: space
+87.2795 	EXP 	fixation_cross: autoDraw = True
+87.5155 	DATA 	Keypress: space
+87.7321 	DATA 	Keypress: space
+87.7795 	EXP 	fixation_cross: autoDraw = False
+87.7795 	EXP 	fixation_cross: autoDraw = False
+87.7795 	EXP 	Stroop_Text: color = 'blue (named)'
+87.7795 	EXP 	Stroop_Text: text = 'Green'
+87.7795 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+87.7795 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+87.7795 	EXP 	Stroop_Text: autoDraw = True
+87.9320 	EXP 	New trial (rep=0, index=29): OrderedDict([('index', 29), ('StroopText', '***'), ('StroopColor', 'red'), ('StroopCondition', 'Color'), ('correct', 'red'), ('is_practice', 'no'), ('practice_cue', None), ('practice_cont', None)])
+87.9341 	DATA 	Keypress: space
+87.9462 	EXP 	Stroop_Text: autoDraw = False
+87.9462 	EXP 	practice_cue_txt: autoDraw = False
+87.9462 	EXP 	prac_cont: autoDraw = False
+88.0816 	DATA 	Keypress: space
+88.6648 	DATA 	Keypress: space
+88.9626 	EXP 	fixation_cross: autoDraw = True
+89.0317 	DATA 	Keypress: space
+89.2154 	DATA 	Keypress: space
+89.3986 	DATA 	Keypress: space
+89.4629 	EXP 	fixation_cross: autoDraw = False
+89.4629 	EXP 	fixation_cross: autoDraw = False
+89.4629 	EXP 	Stroop_Text: color = 'red (named)'
+89.4629 	EXP 	Stroop_Text: text = '***'
+89.4629 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+89.4629 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+89.4629 	EXP 	Stroop_Text: autoDraw = True
+89.6334 	EXP 	New trial (rep=0, index=30): OrderedDict([('index', 30), ('StroopText', 'Orange'), ('StroopColor', 'white'), ('StroopCondition', 'Word'), ('correct', 'orange'), ('is_practice', 'no'), ('practice_cue', None), ('practice_cont', None)])
+89.6353 	DATA 	Keypress: space
+89.6461 	EXP 	Stroop_Text: autoDraw = False
+89.6461 	EXP 	practice_cue_txt: autoDraw = False
+89.6461 	EXP 	prac_cont: autoDraw = False
+90.6627 	EXP 	fixation_cross: autoDraw = True
+90.8816 	DATA 	Keypress: space
+91.0818 	DATA 	Keypress: space
+91.1626 	EXP 	fixation_cross: autoDraw = False
+91.1626 	EXP 	fixation_cross: autoDraw = False
+91.1626 	EXP 	Stroop_Text: color = 'white (named)'
+91.1626 	EXP 	Stroop_Text: text = 'Orange'
+91.1626 	EXP 	practice_cue_txt: text = '(Say "Yellow")'
+91.1626 	EXP 	prac_cont: text = 'Press SPACE to continue.'
+91.1626 	EXP 	Stroop_Text: autoDraw = True
+91.2825 	EXP 	New trial (rep=0, index=31): OrderedDict([('index', 31), ('StroopText', 'Red'), ('StroopColor', 'white'), ('StroopCondition', 'Word'), ('correct', 'red'), ('is_practice', 'no'), ('practice_cue', None), ('practice_cont', None)])
+91.2843 	DATA 	Keypress: space
+91.2960 	EXP 	Stroop_Text: autoDraw = False
+91.2960 	EXP 	practice_cue_txt: autoDraw = False
+91.2960 	EXP 	prac_cont: autoDraw = False
+91.7153 	DATA 	Keypress: escape
+91.9370 	EXP 	window1: mouseVisible = True
